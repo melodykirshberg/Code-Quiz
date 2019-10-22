@@ -1,11 +1,25 @@
-.bod {
+#body {
+    text-align: center;
+    /* width: 100%; */
+}
+
+
+
+.quizdiv {
+    border: #cccccc 2px solid;
+    margin: auto;
+    width: 600px;
+    height: 375px;
+}
+
+header {
     text-align: center;
 }
 
-h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#scorebtn {
+margin-left: 1111px;
 }
 
-.quizdiv {
-    border: black 5px solid;
+#timer {
+    margin-right: 1111px;
 }

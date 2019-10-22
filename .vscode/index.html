@@ -1,27 +1,95 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <!--CSS-->
-    <link rel="stylesheet" href="./style.css"/>
-    
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
-    <!--JavaScript-->
-    <script src="./script.js"></script>
-    
-    <!--Bootstrap Script-->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
 
-    <header>Press Start</header>
-    
-    
-  </body>
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--CSS-->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body class="bod">
+  <!--JavaScript-->
+  <script src="./script.js"></script>
+
+  <!--Bootstrap Script-->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <!--highscores-->
+  <div id="highscores">
+    <h2>View Highscores: <div id="scorNum"></div>
+
+  <!--time-->
+  <div id="timer">
+    <h2>Time: <div id="counter">0</div></h2>
+  </div>
+
+  <!--div-->
+  <div class="quizdiv">
+    <!--page1-->
+    <div id="1page">
+      <header>Press Start</header>
+      <!--start button-->
+      <button id="start">Start Quiz!</button>
+    </div>
+
+    <div id="q1">
+      <h2>Question</h2>
+      <button id="#ansA"></button>
+      <button id="#ansB"></button>
+      <button id="#ansC"></button>
+      <button id="#ansD"></button>
+    </div>
+    <!-- <div id="q2">
+      <h2>Question</h2>
+      <button id="#ansA1"></button>
+      <button id="#ansB1"></button>
+      <button id="#ansC1"></button>
+      <button id="#ansD1"></button>
+    </div>
+    <div id="q3">
+      <h2>Question</h2>
+      <button id="#ansA2"></button>
+      <button id="#ansB2"></button>
+      <button id="#ansC2"></button>
+      <button id="#ansD2"></button>
+    </div>
+    <div id="q4">
+      <h2>Question</h2>
+      <button id="#ansA3"></button>
+      <button id="#ansB3"></button>
+      <button id="#ansC3"></button>
+      <button id="#ansD3"></button>
+    </div>
+    <div id="q5">
+      <h2>Question</h2>
+      <button id="#ansA4"></button>
+      <button id="#ansB4"></button>
+      <button id="#ansC4"></button>
+      <button id="#ansD4"></button>
+    </div> -->
+
+    <form id="results" method="POST">
+      <h2>Get your score!</h2>
+      <label>Enter Intials: </label>
+      <input type="text" id="inputName" />
+      <input type="button" id="myBut" value="Submit">
+    </form>
+    <div id="final">
+      <h2>High Scores</h2>
+      <div id="hS#"> </div>
+    </div>
+
+  </div>
+</body>
+
 </html>

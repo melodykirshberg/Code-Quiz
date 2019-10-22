@@ -90,7 +90,7 @@ startBtn.addEventListener("click", function () {
     }
 })
 
-//-------------hide and seek
+//-------------hide
 var q1 = document.querySelector("#q1");
 q1.style.display = "none";
 var q2 = document.querySelector("#q2");
@@ -110,10 +110,133 @@ function Show() {
     q1.style.display = "block";
 }
 
-answerOne();
+ans1();
+ans2();
+ans3();
+ans4();
+ans5();
+
 function ans1() {
     document.getElementById("#ansA").onclick = function () {
+        highScore++
+        hide();
+        Show2;
+    }
+    document.getElementById("#ansB").onclick = function () {
         highScore--;
+        secLeft--;
+        hide();
+        Show2;
+    }
+    document.getElementById("#ansC").onclick = function () {
+        highScore--;
+        secLeft--;
+        hide();
+        Show2;
+    }
+    document.getElementById("#ansD").onclick = function () {
+        highScore--;
+        secLeft--;
+        hide();
+        Show2;
+    }
+}
+function ans2() {
+    document.getElementById("#ansA1").onclick = function () {
+        highScore++
+        secLeft--;
+        hide();
+        Show2;
+    }
+    document.getElementById("#ansB1").onclick = function () {
+        highScore--;
+        hide();
+        Show2;
+    }
+    document.getElementById("#ansC1").onclick = function () {
+        highScore--;
+        secLeft--;
+        hide();
+        Show2;
+    }
+    document.getElementById("#ansD1").onclick = function () {
+        highScore--;
+        secLeft--;
+        hide();
+        Show2;
+    }
+}
+function ans3() {
+    document.getElementById("#ansA2").onclick = function () {
+        highScore--;
+        secLeft--;
+        hide();
+        Show2;
+    }
+    document.getElementById("#ansB2").onclick = function () {
+        highScore--;
+        secLeft--;
+        hide();
+        Show2;
+    }
+    document.getElementById("#ansC2").onclick = function () {
+        highScore--;
+        secLeft--;
+        hide();
+        Show2;
+    }
+    document.getElementById("#ansD2").onclick = function () {
+        highScore++;
+        hide();
+        Show2;
+    }
+}
+function ans4() {
+    document.getElementById("#ansA3").onclick = function () {
+        highScore--;
+        secLeft--;
+        hide();
+        Show2;
+    }
+    document.getElementById("#ansB3").onclick = function () {
+        highScore++;
+        hide();
+        Show2;
+    }
+    document.getElementById("#ansC3").onclick = function () {
+        highScore--;
+        secLeft--;
+        hide();
+        Show2;
+    }
+    document.getElementById("#ansD3").onclick = function () {
+        highScore--;
+        secLeft--;
+        hide();
+        Show2;
+    }
+}
+function ans5() {
+    document.getElementById("#ansA4").onclick = function () {
+        highScore--;
+        secLeft--;
+        hide();
+        Show2;
+    }
+    document.getElementById("#ansB4").onclick = function () {
+        highScore--;
+        secLeft--;
+        hide();
+        Show2;
+    }
+    document.getElementById("#ansC4").onclick = function () {
+        highScore++;
+        hide();
+        Show2;
+    }
+    document.getElementById("#ansD4").onclick = function () {
+        highScore--;
+        secLeft--;
         hide();
         Show2;
     }

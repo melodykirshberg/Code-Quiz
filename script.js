@@ -147,11 +147,11 @@ function transfer (){
 }
 
 function transferA (){
-   options.forEach(function(){
+   question.forEach(function(){
    })
     var a = document.getElementById("a");
     
-    a.textContent = options[0];
+    a.textContent = question[0].length;
 
 
     console.log(question[0])

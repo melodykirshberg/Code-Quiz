@@ -147,9 +147,19 @@ function transfer (){
 }
 
 function transferA (){
+   options.forEach(function(){
+   })
     var a = document.getElementById("a");
-    a.textContent = question[0].options;
+    
+    a.textContent = options[0];
+
+
+    console.log(question[0])
 }
+
+
+//--------function to check for each answer
+
 
 
 

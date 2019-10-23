@@ -3,6 +3,7 @@ var startBtn = document.querySelector("#start");
 var score = document.querySelector("#scorNum");
 var counter = document.querySelector("#counter");
 var highScore = 0;
+var qI = 0
 
 //--------------question is stored in a variable
 var question = [
@@ -33,11 +34,30 @@ var question = [
         title: "What was the name of the first automated computer compiler?",
         options: ["IBM", "ALGOL", "A-o", "Autocoder"],
         answer: "A-o"
-
+        
     }
-
+    
 ]
 
+//------------------transfer the div question to the array question object
+
+function displayQuestion() {
+
+    //display your title (question[qI].title)
+document.getElementById("question").innerText = question[qI].title;
+var optionsArray = question[qI].options;
+var optionList = document.getElementById("choices");
+
+for (var i = 0; i <optionsArray.length; i++){
+    var button = document.createElement("button");
+    button.textContent = optionsArray[i];
+    console.log(button);
+    optionList.append(button);
+}
+
+
+    //for loop to loop over question[qI].options
+}
 //-------------answer
 //---q1
 var six98 = document.querySelector("#ansA");
@@ -124,7 +144,7 @@ startBtn.addEventListener("click", function () {
         }
     }
     hideStartshow1();
-    transfer();
+    displayQuestion();
     transferA();
 })
 
@@ -139,22 +159,16 @@ function hideStartshow1 (){
 }
 
 
-//------------------transfer the div question to the array question object
-function transfer (){
-   var qText = document.getElementById("question");
-   qText.textContent = question[0].title;
-   console.log(qText);
-}
 
 function transferA (){
-   question.forEach(function(){
+    console.log(question.options)
+   question.options.forEach(function(option){
    })
     var a = document.getElementById("a");
     
-    a.textContent = question[0].length;
+    a.textContent = option;
 
 
-    console.log(question[0])
 }
 
 

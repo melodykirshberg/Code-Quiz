@@ -34,9 +34,9 @@ var question = [
         title: "What was the name of the first automated computer compiler?",
         options: ["IBM", "ALGOL", "A-o", "Autocoder"],
         answer: "A-o"
-        
+
     }
-    
+
 ]
 
 //------------------transfer the div question to the array question object
@@ -44,85 +44,27 @@ var question = [
 function displayQuestion() {
 
     //display your title (question[qI].title)
-document.getElementById("question").innerText = question[qI].title;
-var optionsArray = question[qI].options;
-var optionList = document.getElementById("choices");
+    document.getElementById("question").innerText = question[qI].title;
+    var optionsArray = question[qI].options;
+    var optionList = document.getElementById("choices");
 
-for (var i = 0; i <optionsArray.length; i++){
-    var button = document.createElement("button");
-    button.textContent = optionsArray[i];
-    console.log(button);
-    optionList.append(button);
+    for (var i = 0; i < optionsArray.length; i++) {
+        var button = document.createElement("button");
+        button.textContent = optionsArray[i];
+        console.log(button);
+        optionList.append(button);
+    }
 }
-
-
-    //for loop to loop over question[qI].options
-}
-//-------------answer
-//---q1
-var six98 = document.querySelector("#ansA");
-var six74 = document.querySelector("#ansB");
-var four82 = document.querySelector("#ansC");
-var thirty6 = document.querySelector("#ansD");
-
-// //---q2
-// var dennis = document.querySelector("#ansA1");
-// var adall = document.querySelector("#ansB1");
-// var alan = document.querySelector("#ansC1");
-// var tim = document.querySelector("#ansD1");
-
-// //---q3
-// var plank = document.querySelector("#ansA2");
-// var java = document.querySelector("#ansB2");
-// var c = document.querySelector("#ansC2");
-// var short = document.querySelector("#ansD2");
-
-// //---q4
-// var eniac = document.querySelector("#ansA3");
-// var coloss = document.querySelector("#ansB3");
-// var abacus = document.querySelector("#ansC3");
-// var ada = document.querySelector("#ansD3");
-
-// //---q5
-// var ibm = document.querySelector("#ansA4");
-// var algol = document.querySelector("#ansB4");
-// var ao = document.querySelector("#ansC4");
-// var auto = document.querySelector("#ansD4");
-
-
-
-
-
-
-
-
-
-
 
 
 //-------------running since it loads
 hideEverything();
-function hideEverything () {
+function hideEverything() {
     var q1 = document.querySelector("#box")
     q1.style.display = "none";
     var extra = document.querySelector("#last")
     extra.style.display = "none";
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //-------------start game
@@ -143,13 +85,25 @@ startBtn.addEventListener("click", function () {
             }
         }
     }
+    //-------functions
     hideStartshow1();
     displayQuestion();
     transferA();
 })
 
+document.getElementById("choices").addEventListener("click", function(e){
+    if(e.target.matches("button")){
+        var answer = 
+        if (!"choices" = )
+
+
+
+
+    }
+})
+
 //----------------hide start show q1
-function hideStartshow1 (){
+function hideStartshow1() {
     var hider = document.querySelector("#spage");
     hider.style.display = "none";
     var hidbtn = document.querySelector("#results-form");
@@ -160,12 +114,10 @@ function hideStartshow1 (){
 
 
 
-function transferA (){
-    console.log(question.options)
-   question.options.forEach(function(option){
-   })
+function transferA() {
+    question.options.forEach(function () {
+    })
     var a = document.getElementById("a");
-    
     a.textContent = option;
 
 
@@ -174,7 +126,10 @@ function transferA (){
 
 //--------function to check for each answer
 
+// function checkAns () {
 
+//     <element>.addEventListener("#choices").onclick 
+// }
 
 
 // function ans1() {

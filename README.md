@@ -1,18 +1,21 @@
 # Code-Quiz
-
-### Table of Contents
-* [Installation](#installation)
-* [Description](#description)
-* [Credits](#credits)
-
-## Installation
-* Get the code: ```https://verlitas.github.io/Code-Quiz/```
-
 ## Description
 A timer-based quiz application that stores high scores client-side.
 
-## Screenshots
-Will be coming once I have successfully finished this assignment. 
+## Table of Contents
+* [Installation](#installation)
+* [Screenshot](#screenshot)
+* [Credits](#credits)
+
+## Installation
+In your terminal type:
+```git clone https://verlitas.github.io/Code-Quiz/```
+* Open in Visual Studio to build and run.
+* For further instructions, visit https://help.github.com.
+
+## Screenshot
+![alt text](screenshot/sscq.png "Screenshot")
+
 
 ## Credits
-UA Coding Bootcamp
+[UABootCamp](https://bootcamp.ce.arizona.edu/coding/)

@@ -1,18 +1,19 @@
 # Code-Quiz
 
+## Description
+A timer-based quiz application that stores high scores client-side.
+
 ### Table of Contents
 * [Installation](#installation)
-* [Description](#description)
+* [Demo](#demo)
 * [Credits](#credits)
 
 ## Installation
 * Get the code: ```https://verlitas.github.io/Code-Quiz/```
 
-## Description
-A timer-based quiz application that stores high scores client-side.
-
-## Screenshots
-Will be coming once I have successfully finished this assignment. 
+## Demo
+![livedemo](img/codequiz.gif)
+Live Link: 
 
 ## Credits
-UA Coding Bootcamp
+[UABootCamp](https://bootcamp.ce.arizona.edu/coding/)  

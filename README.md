@@ -13,7 +13,7 @@ A timer-based quiz application that stores high scores client-side.
 
 ## Demo
 ![livedemo](img/codequiz.gif)
-Live Link: 
+Live Link: https://verlitas.github.io/Code-Quiz/
 
 ## Credits
 [UABootCamp](https://bootcamp.ce.arizona.edu/coding/)  

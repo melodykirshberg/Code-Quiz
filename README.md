@@ -1,4 +1,6 @@
 # Code-Quiz
+## Description
+A timer-based quiz application that stores high scores client-side.
 
 ## Description
 A timer-based quiz application that stores high scores client-side.
@@ -9,7 +11,10 @@ A timer-based quiz application that stores high scores client-side.
 * [Credits](#credits)
 
 ## Installation
-* Get the code: ```https://verlitas.github.io/Code-Quiz/```
+In your terminal type:
+```git clone https://verlitas.github.io/Code-Quiz/```
+* Open in Visual Studio to build and run.
+* For further instructions, visit https://help.github.com.
 
 ## Demo
 ![livedemo](img/codequiz.gif)

@@ -7,8 +7,8 @@ A timer-based quiz application that stores high scores client-side.
 
 ### Table of Contents
 * [Installation](#installation)
-* [Demo](#demo)
 * [Technologies-Libraries](#technologies-libraries)
+* [Demo](#demo)
 * [Credits](#credits)
 
 ## Installation

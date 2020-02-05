@@ -25,4 +25,5 @@ CSS - HTML - JavaScript
 Live Link: https://verlitas.github.io/Code-Quiz/
 
 ## Credits
+[Melody Kirshberg](https://github.com/verlitas)  
 [UABootCamp](https://bootcamp.ce.arizona.edu/coding/)  
